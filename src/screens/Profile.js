@@ -85,6 +85,7 @@ const Profile = () => {
                   onClick={() => {
                     setSelectedSection(item);
                     setIsAddingAddress(false);
+                    setIsAppointmentCard(false);
                   }}
                   style={{ cursor: "pointer" }}
                 >

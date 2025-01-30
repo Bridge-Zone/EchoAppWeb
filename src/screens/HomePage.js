@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Header from "../components/Header";
 import Banner from "../components/Banner";
 import leftMachine from "../images/leftMachine.png";
@@ -9,13 +9,25 @@ import Footer from "../components/Footer";
 import TestimonialSlider from "../components/TestimonialSlider";
 import DownloadNow from "../components/DownloadNow";
 import HowItWorks from "../components/HowItWorks";
+import HowItWorksMobile from "../components/HowItWorksMobile";
 
 const Homepage = () => {
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 1400);
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 1400);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <div>
       <Header />
       <Banner />
-      <HowItWorks/>
+
+     {  isMobile ? <HowItWorksMobile /> : <HowItWorks />}
     
       <ResponsiveCards/>
       <div className="container-fluid p-0 ">
