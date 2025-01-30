@@ -1,0 +1,102 @@
+.patient1 {
+  border-radius: 24px;
+}
+.star-count {
+  font-size: 14px;
+  font-weight: 400;
+}
+.serviceDetail-heading {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 6px;
+  margin-bottom: 0px;
+}
+.serviceDetail-para {
+  color: rgba(102, 102, 102, 1);
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: 6px;
+  margin-bottom: 0px;
+}
+.serviceDetail-list {
+  font-size: 18px;
+  font-weight: 400;
+}
+.serviceDetail-price {
+  color: rgba(11, 149, 221, 1);
+  font-size: 24px;
+  font-weight: 600;
+}
+.serviceDetail-amount {
+  color: rgba(102, 102, 102, 1);
+  font-size: 24px;
+  font-weight: 600;
+}
+.serviceDetail-AllList {
+  text-align: left;
+}
+.serviceDetail-btn {
+  height: 56px;
+  border-radius: 50px;
+  background: rgba(11, 149, 221, 1);
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.safeSecure {
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+.blue-background {
+  background: rgba(29, 43, 81, 1);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  padding: 20px;
+  gap: 10px; /* Adds space between elements for better spacing on smaller screens */
+}
+
+.receive-result {
+  font-size: 16px; /* Adjust font size for smaller screens */
+  font-weight: 200;
+  color: white;
+  margin-bottom: 0px;
+  line-height: 20px;
+}
+@media (max-width: 576px) {
+  .blue-background {
+    flex-direction: column; /* Stack elements vertically on small screens */
+    align-items: flex-start; /* Align items to the left */
+    padding: 15px; /* Reduce padding */
+  }
+
+  .receive-result {
+    font-size: 14px; /* Smaller font size for better readability */
+    line-height: 18px;
+  }
+  .Incenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px !important;
+  }
+  .question-detail{
+text-align: left !important;
+  }
+  .question-detail ul{
+    text-align: left !important;
+    padding-left: 0px;
+      }
+}
+@media (max-width: 576px) {
+  .serviceDetail-heading{
+font-size: 33px;
+  }
+}

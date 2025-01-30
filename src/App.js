@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Homepage from "./screens/HomePage";
+import ServiceDetail from "./screens/ServiceDetail";
+import Services from "./screens/Services";
+import Bookings from "./screens/Bookings";
+import ContactUs from "./screens/ContactUs";
+import Login from "./screens/Login";
+import SignUp from "./screens/SignUp";
+import Profile from "./screens/Profile";
+import React from "react";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signUp" element={<SignUp />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/contactUs" element={<ContactUs />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/serviceDetail" element={<ServiceDetail />} />
+        <Route path="/bookings" element={<Bookings />} />
+      </Routes>
+    </React.Fragment>
   );
 }
 

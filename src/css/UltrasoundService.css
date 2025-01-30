@@ -1,0 +1,68 @@
+.bg-color-div {
+    background: rgba(11, 149, 221, 0.3);
+    min-height: 700px;
+  }
+  .centralized {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .fs-custom {
+    font-size: 46px;
+    font-weight: 600;
+ 
+  }
+  .fs-custom-subHeading {
+    font-size: 22px;
+    font-weight: 500;
+    color: rgba(113, 113, 113, 1);
+
+  }
+  .main-div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-div img {
+    border-radius: 10px 10px 0px 0px;
+  }
+  .sub-div {
+    background: rgba(245, 245, 245, 1);
+    text-align: left;
+    padding: 13px;
+    border-radius: 8px;
+    width: 80%;
+    transform: translateY(-90px);
+    /* transition: transform 0.3s ease; */
+  }
+  .sub-div-heading {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .sub-div-para {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+
+  }
+  .service-viewAll{
+    color: rgba(11, 149, 221, 1);
+font-size: 20px;
+font-weight: 400;
+text-decoration: underline;
+  }
+  .centralized-div{
+    width: 100%;
+    text-align: center;
+    margin-top: -40px;
+  }
+  @media (max-width: 576px) {
+    .fs-custom{
+  font-size: 33px;
+    }
+    .fs-custom-subHeading{
+      font-size: 18px;
+    }
+  }

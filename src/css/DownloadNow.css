@@ -1,0 +1,37 @@
+.download-div {
+  background: rgba(182, 224, 245, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .download-heading {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .download-div-icons {
+    background: rgba(182, 224, 245, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .responsive-img {
+    max-width: 100%; /* Ensure the image does not exceed its container width */
+    height: auto; /* Maintain aspect ratio */
+    width: 150px; /* Optional: Limit image size for better control */
+  }
+  .align-img {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap; /* Ensures the images stack on smaller screens */
+  }
+  @media screen and (max-width: 767px) {
+    .align-img {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+}

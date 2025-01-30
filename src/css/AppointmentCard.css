@@ -1,0 +1,91 @@
+.apointmentCard-detail {
+border-radius: 10px !important;
+  }
+  
+  .appointment-card img {
+    border-radius: 10px 0 0 10px;
+    object-fit: cover;
+    height: 100%;
+  }
+  
+  .appointment-card-body {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .appointment-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .appointment-badge {
+    background-color: #ffc107;
+    color: #212529;
+    font-size: 0.875rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+  }
+  
+  .appointment-price {
+    font-size: 1rem;
+    color: #007bff;
+    margin: 0.5rem 0;
+  }
+  
+  .appointment-time {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 1rem;
+  }
+  
+  .appointment-description {
+    font-size: 0.875rem;
+    color: #495057;
+    margin-bottom: 1rem;
+  }
+  
+  .appointment-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .appointment-profile img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 0.5rem;
+  }
+  
+  .appointment-profile-name {
+    font-weight: 500;
+    font-size: 0.95rem;
+  }
+  
+  .appointment-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .appointment-button {
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  .appointment-button.cancel {
+    background-color: #ffffff;
+    color: #007bff;
+    border: 1px solid #007bff;
+  }
+  
+  .appointment-button.reschedule {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  

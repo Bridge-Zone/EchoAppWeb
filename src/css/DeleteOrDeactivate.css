@@ -1,0 +1,86 @@
+.delete-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(51, 51, 51, 1);
+}
+.delete-para {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
+}
+.deactivate-account-div {
+  background: white;
+  color: black;
+  height: 146px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px 0px rgba(6, 51, 54, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.deactivate-account-div .deactivate-heading,
+.deactivate-account-div .deactivate-detail {
+  color: black;
+}
+
+.deactivate-account-div-selected {
+  background: rgba(11, 149, 221, 1);
+  color: rgba(221, 221, 221, 1);
+  box-shadow: 0px 0px 20px 0px rgba(6, 51, 54, 0.1);
+  height: 146px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.deactivate-account-div-selected .deactivate-detail {
+  color: rgba(221, 221, 221, 1);
+}
+.deactivate-account-div-selected .deactivate-heading {
+  color: rgba(255, 255, 255, 1);
+}
+
+.delete-account-div {
+  background: white;
+  color: black;
+  height: 146px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px 0px rgba(6, 51, 54, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.delete-account-div .delete-heading,
+.delete-account-div .delete-detail {
+  color: black;
+}
+
+.delete-account-div-selected {
+  background: #dc3545;
+  box-shadow: 0px 0px 20px 0px rgba(6, 51, 54, 0.1);
+  height: 146px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.delete-account-div-selected .delete-detail {
+  color: rgba(255, 255, 255, 1) !important;
+}
+.delete-account-div-selected .delete-heading {
+  color: rgba(255, 255, 255, 1);
+}
+.delete-screen-btn {
+  width: 70%;
+  background: rgba(11, 149, 221, 1);
+  border-radius: 50px;
+  height: 56px;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}

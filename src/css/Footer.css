@@ -1,0 +1,93 @@
+footer {
+    font-size: 0.9rem;
+  }
+
+  footer h5 {
+    font-weight: bold;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  footer form .form-control {
+    border-radius: 0.25rem;
+  }
+  
+  footer form .btn {
+    border-radius: 0.25rem;
+  }
+  .social-links{
+    display: flex;
+   gap: 10px;
+  }
+.grey-circle{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3C464C;
+    border-radius: 50%;
+}  
+.footer-text{
+  color: rgba(245, 247, 250, 1);
+font-size: 14px;
+font-weight: 400;
+}
+.footer-heading{
+  color: rgba(245, 247, 250, 1);
+  font-size: 20px;
+  font-weight: 600;
+}
+.text-white{
+  color: rgba(245, 247, 250, 1);
+  font-size: 14px;
+  font-weight: 400;
+}
+.list-unstyled{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 25px
+}
+.footer-input{
+  background: #3C464C !important;
+color: white !important;
+border: none !important;
+border-radius: 8px !important;
+height: 40px !important;
+width: 300px !important;
+}
+.footer-input::placeholder{
+  color:rgba(217, 219, 225, 1) !important;
+}
+.sendIcon{
+  position: absolute;
+  right: 20px;
+  top: 28%;
+  
+}
+.input-div{
+  position: relative;
+  margin-top: 20px
+}
+@media screen and (max-width: 766px) {
+  .social-links {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .input-mobile-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

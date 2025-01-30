@@ -1,0 +1,124 @@
+/* Wrapper */
+.appointments-wrapper {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Tabs */
+.tabs-container {
+  display: flex;
+  flex-wrap: wrap !important;
+  row-gap: 0; /* No vertical gap */
+  column-gap: 35px; /* Horizontal gap only */
+  margin-bottom: 20px;
+  width: 100%;
+  border-bottom: 1px solid rgba(199, 199, 199, 1);
+}
+
+.tab-button {
+  color: rgba(102, 102, 102, 1);
+  font-size: 20px;
+  font-weight: 400;
+  background-color: transparent;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.tab-button:hover {
+  color: #007bff;
+}
+
+.active-tab {
+  color: #007bff;
+  font-weight: bold;
+  border-bottom: 2px solid #007bff;
+}
+
+/* Cards */
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+}
+
+.custom-card {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 15px;
+  height: 120px;
+  box-shadow: 0px 0px 20px 0px rgba(6, 51, 54, 0.1);
+  transition: transform 0.2s;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-content-status {
+  display: flex;
+  align-items: center;
+}
+
+.card-image-status {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.card-info-status {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.card-title-status {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  color: rgba(51, 51, 51, 1);
+}
+
+.card-date {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
+}
+
+/* Badges */
+.badge {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.badge-pending {
+  background-color: #007bff;
+  color: white;
+}
+
+.badge-upcoming {
+  background-color: #ffc107;
+  color: white;
+}
+
+.badge-completed {
+  background-color: #28a745;
+  color: white;
+}
+
+.badge-cancelled {
+  background-color: #dc3545;
+  color: white;
+}
+
+
+@media (max-width: 773px) {
+.tabs-container{
+  column-gap: 1px;
+}
+.card-title-status{
+  font-size: 15px;
+}
+}

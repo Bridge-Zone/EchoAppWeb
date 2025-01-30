@@ -1,0 +1,79 @@
+.banner-container {
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    color: white;
+    padding: 2rem;
+  }
+  
+  .star-rating {
+    color: #ffd700; /* Gold stars */
+    font-size: 1.2rem;
+  }
+  .review-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .banner-heading{
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 63px;
+  }
+  .banner-subtext{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+  }
+  h1 .highlight {
+    background-color: white;
+    color: #007bff;
+    font-weight: 700;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  ul {
+    padding-left: 1rem;
+  }
+  
+  ul li {
+    margin-bottom: 0.5rem;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+.banner-btn{
+    width: 70%;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 600;
+}
+  
+  @media (max-width: 576px) {
+    .banner-container {
+      text-align: center;
+    }
+    .banner-text{
+      text-align: left;
+    }
+  .banner-heading{
+    font-size: 33px;
+    line-height: 45px;
+  }
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    ul {
+      text-align: center;
+      padding-left: 0;
+    }
+  
+    ul li {
+      list-style: none;
+    }
+  }
+  

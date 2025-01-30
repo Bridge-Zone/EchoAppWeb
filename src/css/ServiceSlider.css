@@ -1,0 +1,54 @@
+.service-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #fff;
+}
+
+.service-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.service-body {
+  padding: 15px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #007bff;
+}
+
+.swiper-pagination-bullet {
+  background-color: #007bff;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ff6600;
+}
+.service-slider-heading{
+  font-size: 46px;
+  font-weight: 700;
+}
+.see-all-btn-div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.see-all-service-btn{
+  height: 60px;
+  border: 2px solid rgba(11, 149, 221, 1);
+  border-radius: 25px;
+  width: 350px;
+  background-color: transparent;
+  font-size: 18px;font-weight: 700;
+  color:rgba(11, 149, 221, 1) ;
+}
+@media (max-width: 480px) { /* For mobile devices */
+  .service-slider-heading {
+font-size: 30px;
+  }
+}

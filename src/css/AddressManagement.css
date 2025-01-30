@@ -1,0 +1,17 @@
+.item-name{
+    font-size: 20px;
+    font-weight: 600;
+}
+.item-address{
+    font-size: 16px;
+    font-weight: 400;
+}
+.list-group-item-address {
+    padding: 20px 20px;
+    border-bottom: 1px solid #ddd;
+    font-weight: 600;
+    font-size: 20px;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+  }

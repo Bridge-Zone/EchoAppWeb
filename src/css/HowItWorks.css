@@ -1,0 +1,78 @@
+
+    .work-circle {
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+        width: 220px; /* Set a base size */
+        height: 220px; /* Make the height equal to the width */
+        border-radius: 50%; /* This makes it a circle */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-bottom: 20%;
+      }
+      .circle-heading{
+        font-size: 46px;
+        font-weight: 700;
+      }
+      
+      .circle-subText{
+        font-size: 20px;
+        font-weight: 500;
+      }
+      .circle-number {
+        width: 38px;
+        height: 38px;
+        background: rgba(11, 149, 221, 1);
+        border-radius: 50%;
+        border: 2px solid white;
+        color: white;
+        position: absolute;
+        bottom: -17px;
+        left: 45%;
+        right: 45%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 400;
+        font-size: 18px;
+      }
+      .bellow-circle-heading{
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .bellow-circle-subText{
+        font-size: 16px;
+        font-weight: 400;
+        color: black;
+        line-height: 22px;
+      }
+      .adjustment {
+        transform: translateY(-70px);
+      }
+      
+      
+        @media (max-width: 1399px) {
+          .adjustment  {
+         display: none;
+          }
+        }
+        @media (max-width: 773px) {
+          .circle-heading{
+            font-size: 33px;
+          }
+          .circle-mobile{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+          }
+          .adjustment{
+            display: none;
+          }
+          .work-circle{
+            margin-bottom: 10%;
+          }
+          .circle-subText {
+            font-size: 17px;
+          }
+      
+        }
