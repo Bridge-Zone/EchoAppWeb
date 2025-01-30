@@ -46,11 +46,18 @@ const DocumentList = () => {
 
             {/* Add Document Button */}
             <div className="text-center mt-4">
-              <Button
+              {/* <Button
                 className="signIn-btn"
                 variant="primary"
                 size="lg"
                 onClick={toggleModal}
+              >
+                Add Document
+              </Button> */}
+               <Button
+                className="signIn-btn"
+                variant="primary"
+                size="lg"
               >
                 Add Document
               </Button>

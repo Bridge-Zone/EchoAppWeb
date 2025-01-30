@@ -20,6 +20,7 @@ const Profile = () => {
   // State to manage the selected section
   const [selectedSection, setSelectedSection] = useState("My Account");
   const [isAddingAddress, setIsAddingAddress] = useState(false);
+  const [isAppointmentCard, setIsAppointmentCard] = useState(false);
 
   // Function to render the component based on the selected section
   const renderContent = () => {
@@ -39,7 +40,11 @@ const Profile = () => {
           case "Saved Services":
             return <SavedServices />;
             case "Booking":
-              return <BookingStatus />;
+              return isAppointmentCard ? (
+                <AppointmentCard />
+              ) : (
+                <BookingStatus setIsAppointmentCard={setIsAppointmentCard} />
+              );
             case "Close Account":
               return <DeleteOrDeactivate />;
             case "About Us":

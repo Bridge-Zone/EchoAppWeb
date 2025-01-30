@@ -1349,3 +1349,32 @@ export const SearchIcon = () => (
     />
   </svg>
 );
+export const locationBlue = () => (
+<svg
+    width={50}
+    height={50}
+    viewBox="0 0 50 50"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <circle cx={25} cy={25} r={25} fill="#0B95DD" />
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M28.75 22.7508C28.75 20.6789 27.0711 19 25.0008 19C22.9289 19 21.25 20.6789 21.25 22.7508C21.25 24.8211 22.9289 26.5 25.0008 26.5C27.0711 26.5 28.75 24.8211 28.75 22.7508Z"
+      stroke="white"
+      strokeWidth={1.5}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M24.9993 38.5C23.2016 38.5 13.75 30.8476 13.75 22.8449C13.75 16.58 18.7857 11.5 24.9993 11.5C31.2129 11.5 36.25 16.58 36.25 22.8449C36.25 30.8476 26.797 38.5 24.9993 38.5Z"
+      stroke="white"
+      strokeWidth={1.5}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);

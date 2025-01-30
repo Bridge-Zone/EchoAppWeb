@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../css/BookingStatus.css"; // Your custom styles
 import service1 from "../images/service1.png"
 
-const BookingStatus = () => {
+const BookingStatus = ({ setIsAppointmentCard }) => {
   const [activeTab, setActiveTab] = useState("all");
 
   const appointments = [
@@ -43,7 +43,7 @@ const BookingStatus = () => {
       </div>
 
       {/* Appointment Cards */}
-      <div className="cards-container">
+      <div style={{cursor:"pointer"}} onClick={() => setIsAppointmentCard(true)} className="cards-container">
         {filteredAppointments.map((appointment, index) => (
           <div className="custom-card" key={index}>
             <div className="card-content-status">
