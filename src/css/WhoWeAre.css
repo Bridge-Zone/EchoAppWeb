@@ -27,7 +27,6 @@
   .feature-card:hover p {
     color: white; /* Ensures text inside turns white */
   }
-  
   .feature-icon {
     font-size: 30px;
     color: #ffdd57;
