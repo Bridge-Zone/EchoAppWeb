@@ -10,6 +10,7 @@ import TestimonialSlider from "../components/TestimonialSlider";
 import DownloadNow from "../components/DownloadNow";
 import HowItWorks from "../components/HowItWorks";
 import HowItWorksMobile from "../components/HowItWorksMobile";
+import WhoWeAre from "../components/WhoWeAre";
 
 const Homepage = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 1400);
@@ -28,7 +29,7 @@ const Homepage = () => {
       <Banner />
 
      {  isMobile ? <HowItWorksMobile /> : <HowItWorks />}
-    
+    <WhoWeAre/>
       <ResponsiveCards/>
       <div className="container-fluid p-0 ">
         <div className="row p-0 m-0">

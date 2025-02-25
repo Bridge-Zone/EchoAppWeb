@@ -1,0 +1,52 @@
+.who-we-are-section {
+    background: #0067D6;
+    padding: 60px 0;
+    color: white;
+    border-radius: 10px;
+  }
+  .whoWeAre-heading{
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .feature-card {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px 0;
+    color: black; /* Default text color */
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .feature-card:hover {
+    transform: scale(1.1);
+    background: rgba(255, 255, 255, 0.2);
+    color: white; /* Text turns white on hover */
+  }
+  
+  .feature-card:hover p {
+    color: white; /* Ensures text inside turns white */
+  }
+  
+  .feature-icon {
+    font-size: 30px;
+    color: #ffdd57;
+    margin-bottom: 10px;
+  }
+  
+  .btn-custom {
+    background: white;
+    color: #007bff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-custom:hover {
+    background: #ffdd57;
+    color: #000;
+  }
+  
